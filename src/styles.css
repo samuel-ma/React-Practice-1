@@ -1,0 +1,30 @@
+:root {
+  --blue: rgb(8, 133, 236);
+}
+
+body {
+  font-family: "poppins";
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  color: var(--blue);
+  padding: 10px;
+  border: 1px var(--blue) solid;
+}
+
+h4 {
+  color: gray;
+  font-size: smaller;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 5px;
+  font-size: smaller;
+}
