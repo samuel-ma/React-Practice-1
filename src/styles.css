@@ -1,30 +1,29 @@
-:root {
-  --blue: rgb(8, 133, 236);
+:root{
+    --blue: rgb(15, 140, 243);
 }
 
-body {
-  font-family: "poppins";
-  text-align: center;
-  padding: 20px;
+body{
+    padding: 40px;
+    font-family: "Poppins";
+    text-align: center;
 }
 
-h3 {
-  color: var(--blue);
-  padding: 10px;
-  border: 1px var(--blue) solid;
+button{
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 8px;
 }
 
-h4 {
-  color: gray;
-  font-size: smaller;
+h1{
+    border: 1px solid var(--blue);
+    padding: 10px;
+    color: var(--blue);
 }
 
-button {
-  cursor: pointer;
-  padding: 10px;
-  color: white;
-  background-color: var(--blue);
-  border: none;
-  border-radius: 5px;
-  font-size: smaller;
+p{
+    color: gray;
+    font-size: smaller;
 }
