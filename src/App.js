@@ -22,7 +22,7 @@ export default function App() {
     <div className="App">
       <button onClick={getAdvice}>Get Advice</button>
       <Message advice={advice} />
-      <h4>Advice number = {count}</h4>
+      <p>Advice number = {count}</p>
     </div>
   );
 }

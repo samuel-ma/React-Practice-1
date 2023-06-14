@@ -1,0 +1,29 @@
+:root {
+  --blue: rgb(15, 140, 243);
+}
+
+body {
+  padding: 40px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 8px;
+}
+
+h1 {
+  border: 1px solid var(--blue);
+  padding: 10px;
+  color: var(--blue);
+}
+
+p {
+  color: gray;
+  font-size: smaller;
+}
